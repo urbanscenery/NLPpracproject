@@ -6,7 +6,7 @@ from konlpy.utils import pprint
 
 
 kkma = Kkma()
-driver = webdriver.PhantomJS('/Users/macbook/Documents/phantomjs-2.1.1-macosx/phantomjs-2.1.1-macosx/bin/phantomjs')
+driver = webdriver.PhantomJS('./phantomjs-2.1.1-macosx/bin/phantomjs')
 
 
 base_url = 'https://brunch.co.kr'
